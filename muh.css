@@ -1,0 +1,354 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(62, 35, 142);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+
+.judul {
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.hehu{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+
+}
+.hehu :hover{
+  
+    color: beige;
+}
+.menu {
+    font-size: 28px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.p {
+    font-size: 28px;
+    padding: 10px;
+    margin-right: 40px;
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+
+.utama1 {
+    background-color: rgb(141, 141, 142);
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    min-height: 90vh;
+
+}
+
+.isi1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+.isi2 {
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.img {
+    padding-top: 70px;
+}
+
+.jeda1 {
+    background-color: rgb(30, 30, 96);
+    justify-content: center;
+    text-align: center;
+    display: column;
+    flex-wrap: wrap;
+    height: 15vh;
+}
+
+.juduljeda {
+    font-size: 2em;
+    padding-top: 15px;
+}
+
+.juduljeda2 {
+    font-size: 1.5em;
+}
+
+.utama2 {
+    background-image: url(aset/hehe.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bungkus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.card {
+    border: 1px solid white;
+    background-color: rgb(171, 181, 181);
+    color: black;
+    padding: 35px;
+    margin: 8px;
+    box-shadow: 2px 5px 2px 2px rgb(0, 0, 0, .5);
+    flex-wrap: wrap;
+    width: 15%;
+
+
+}
+
+.wraper {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+
+}
+
+.isicard1 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.isicard2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.image {
+    width: 150px;
+    border: 2px solid darkblue;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    width: 20%;
+    color: white;
+    background-color: rgb(5, 53, 58);
+}
+
+.btn:hover {
+    color: darkcyan;
+}
+
+.akhiran {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    display: column;
+
+
+
+}
+
+.ket {
+    padding: 30px;
+    background-color: rgb(171, 181, 181);
+
+}
+
+footer {
+    background-color: rgb(25, 25, 81);
+
+
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.be {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4 {
+
+    border: 1px solid white;
+    background-color: rgb(171, 181, 181);
+    color: black;
+    padding: 24px;
+    margin: 8px;
+    margin-top: 35vh;
+    box-shadow: 2px 5px 2px 2px rgb(0, 0, 0, .5);
+    flex-wrap: wrap;
+    width: 20%;
+
+
+}
+.judul4{
+    font-size: 2em;
+    
+}
+
+.deskripsi4{
+    font-size: 1.5em;
+    margin-top: 8px;
+    
+  
+}
+
+.icon{
+    font-size: 40px;
+    color: rgb(22, 24, 81);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.klik4{
+    margin-top: 16px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: rgb(5, 53, 58);
+
+}
+.klik4:hover{
+    
+    color: blueviolet;
+}
+
+.text {
+    text-align: center;
+
+}
+
+.player{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    display: column;
+
+}
+.data{
+    padding: 20px;
+    color: yellow;
+    
+
+}
+
+.data1{
+    padding: 20px;
+    color: green;
+}
+
+.data3{
+    padding: 20px;
+    color: bisque;
+}
+
+.data4{
+    padding: 20px;
+    color: red;
+}
+
+.bg{
+    background-image: url(aset/saber.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.bg2{
+    background-image: url(aset/franco.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.bg3{
+    background-image: url(aset/gatot.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg4{
+    background-image: url(aset/harit.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mg{
+    border: 2px solid rgb(8, 79, 29);
+}
+
+@media screen and (max-width: 500px) { 
+    .nav{
+        height: auto;
+    }
+    .utama2{
+        height: auto;
+        padding-bottom: 100px;
+        
+    
+    }
+    .bungkus{
+        flex-direction: column;
+    }
+    .be{
+        flex-direction: column;
+
+    }
+
+    .card{
+        width: auto;
+    }
+    .card4{
+        width: auto;
+        padding: auto;
+        margin-top: 20px;
+    }
+
+    
+}
